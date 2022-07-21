@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: test-design
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.1.118:8848
+        file-extension: yml
+        namespace: b5b1d01c-feeb-42f7-8816-137c0685ace8
+        sharedDataids: logback.xml
